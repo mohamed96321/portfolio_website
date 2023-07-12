@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mohamed | Portfolio</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="primary-header flex">
+    <div>
+      <h2 class="head text-white">Mohamed</h2>
+    </div>
+    <button class="mobile-nav-toggle" 
+    aria-expanded="false"
+    aria-controls="primary-navigation">
+      <span class="sr-only">Menu</span>
+    </button>
+    <nav>
+      <ul id="primary-navigation" 
+      data-visible="false"
+      class="primary-navigation flex">
+        <li class="active">
+          <a href="#about" 
+          class="ff-sans-cond uppercase 
+          text-white letter-spacing-2">
+            <span aria-hidden="true">
+            </span>
+            About
+          </a>
+        <li>
+          <a href="#info" 
+          class="ff-sans-cond uppercase 
+          text-white letter-spacing-2">
+            <span aria-hidden="true">
+            </span>
+            Qualification
+          </a>
+        <li>
+          <a href="#skills" 
+          class="ff-sans-cond uppercase 
+          text-white letter-spacing-2">
+            <span aria-hidden="true">
+            </span>
+            Skills
+          </a>
+        <li>
+          <a href="#works" 
+          class="ff-sans-cond uppercase 
+          text-white letter-spacing-2">
+            <span aria-hidden="true">
+            </span>
+            Works
+          </a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="about-cv pad-sec text-white" id="about">
+      <h2 class="section__title text-center">About Me</h2>
+      
+        <div class="about__container flex">
+          <img src="assets/img/pp.jpg" alt="Profile Image" class="about__img">
+          <div class="about__data">
+            <p class="about__description">My Name is Mohamed Atef <br> I'm a Software Engineer - Web Developer</p>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">05+</span>
+                <span class="about__info-name">Years Coding Experience</span>
+              </div>
+              <div>
+                <span class="about__info-title">05+</span>
+                <span class="about__info-name">Completed Poject</span>
+              </div>
+              
+            </div>
+            <div class="about__buttons icon-size svg-black">
+              <a download="" href="assets/pdf/Mohamed-CV.pdf" class="button button--flex text-black">
+                Resume<i class="button__icon">
+                  <img src="assets/img/download-alt.svg" alt="">
+                </i>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="info-qualification pad-sec text-white" id="info">
+      <h2 class="section__title text-center">Qualifications</h2>
+      <div class="flex">
+        <div class="years-desc">
+          <span>2017-2021</span>
+        </div>
+        <div class="qua-info">
+          <p>Bachelor Of Computer And Information Science.</p>
+          <p>Faculty Of Computer And Information Science, Zagazig University.</p>
+          <p>Grade: (Good).</p>
+          <p>Graduation Project: Shaglni System:-</p>
+          <div class="mg-details">
+            <ul>
+              <li>
+                <span>As a web app: - Node , Mongoose , Angular , Socketio</span>
+              </li>
+              <li>
+                <span>As a mobile app: - Java (Android), Firebase</span>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills-utl pad-sec text-white" id="skills">
+      <h2 class="section__title text-center">Skills</h2>
+      <div class="skill-details grid text-center">
+        <p>
+          Oop Concepts | Database Concepts | Cyber Security Fundamentals
+        </p>
+        <p>
+          Data Structure and Algorithms | Design Pattern | Problem Solving
+        </p>
+        <p>HTML & CSS | JavaScript | Ajax & Json | Es6</p>
+        <p> Typescript | Node.Js & Express.Js</p>
+        <p>SQL:- PostgreSQL | NoSQL:- MongoDB & Mongoose</p></p>
+      </div>
+    </section>
+    <section class="work-projects pad-sec text-white" id="works">
+      <h2 class="section__title text-center">My Works</h2>
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden svg-white">
+          <img src="assets/img/angle-left-b.svg" alt="">
+        </button>
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide flex">
+              <img class="carousel__image" src="assets/img/portfolio1.jpg" alt="">
+              <div class="info-works text-center">
+                <p>
+                  Shaglni App
+                </p>
+                <button>See Details</button>
+              </div>
+            </li>
+            <li class="carousel__slide flex">
+              <img class="carousel__image" src="assets/img/portfolio2.jpg" alt="">
+              
+              <div class="info-works text-center">
+                <p>
+                  Chat App 
+                </p>
+                <button>See Details</button>
+              </div>
+             
+            </li>
+            <li class="carousel__slide flex">
+              <img class="carousel__image" src="assets/img/portfolio3.jpg" alt="">
+              
+              <div class="info-works text-center">
+                <p>
+                  Shop App
+                </p>
+                <button>See Details</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="carousel__button carousel__button--right svg-white">
+          <img src="assets/img/angle-right-b.svg" alt="">
+        </button>
+    
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container grid">
+        <div class="text-white">
+          <h1 class="footer__title">Mohamed</h1>
+          <span class="footer__subtitle">Web & Android developer</span>
+        </div>
+        <ul class="footer__links flex">
+          <li>
+            <a href="#about" class="footer__link text-white">About</a>
+          </li>
+          <li>
+            <a href="#info" class="footer__link text-white">Qualification</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer__link text-white">Skills</a>
+          </li>
+          <li>
+            <a href="#works" class="footer__link text-white">Works</a>
+          </li>
+        </ul>
+        <div class="footer__socials svg-white icon-size">
+          <a href="https://www.linkedin.com/in/mohamed-atef-3a0780194/" target="_blank" class="footer__social">
+            <img src="assets/img/linkedin.svg" alt="">
+          </a>
+          <a href="https://github.com/mohamed96321?tab=repositories" target="_blank" class="footer__social">
+            <img src="assets/img/github.svg" alt="">
+          </a>
+          <a href="https://mail.google.com/mail/u/0/#sent?compose=new" target="_blank" class="footer__social">
+            <img src="assets/img/mail_fill.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <p class="footer__copy text-white text-center">&#169; MA | Company. All copyright reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
